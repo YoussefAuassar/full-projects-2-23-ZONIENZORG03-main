@@ -1,0 +1,977 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapperOnder {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+.headerpic {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.127), rgba(0, 0, 0, 0.2)), url(../images/missieenvisie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 300px;
+}
+
+.headerpic .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Pas de transparantie aan indien nodig */
+    z-index: 1;
+}
+
+.headerpic h1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 55px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.headerpic h1::after {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 10px;
+    background-color: #49D189;
+    font-weight: light;
+}
+
+.elementen {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: -150px;
+    position: relative;
+    margin-bottom: 1%;
+}
+
+
+
+.links {
+    margin-left: -10px;
+}
+
+.rechts {
+    margin-right: -2px;
+}
+
+.rechts img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.alinea1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    margin-top: -5%;
+}
+
+.foto1 {
+    width: 100%;
+}
+
+.foto1 img {
+    width: 100%;
+    height: 70%;
+    background-color: #E8F3EC;
+    padding-right: 54%;
+
+
+}
+
+
+
+.tekst1 p strong {
+    font-weight: bold;
+}
+
+.tekst1 {
+    font-family: 'Poppins', sans-serif;
+    width: 170%;
+    margin-left: 10%;
+
+    line-height: 120%;
+    font-size: 19px;
+}
+
+.alinea2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 5%;
+    flex-direction: row-reverse;
+}
+
+.foto2 img {
+    width: 45%;
+    height: 90%;
+    background-color: #E8F3EC;
+    padding-left: 26%;
+
+
+}
+
+
+
+
+
+.tekst2 {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin-left: -10%;
+    margin-right: 4%;
+
+    line-height: 120%;
+    font-size: 19px;
+
+}
+
+h2 {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.alinea3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    margin-top: 7%;
+}
+
+.foto3 img {
+    width: 80%;
+    height: 80%;
+    background-color: #E8F3EC;
+    padding-right: 20%;
+
+
+}
+
+
+
+.tekst3 p strong {
+    font-weight: bold;
+}
+
+.tekst3 {
+    font-family: 'Poppins', sans-serif;
+    width: 125%;
+    margin-left: 10%;
+    line-height: 120%;
+    font-size: 19px;
+}
+
+.team {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 5%;
+    gap: 1%;
+    margin-bottom: 5%;
+}
+
+.line1 {
+    width: 5%;
+    height: 7px;
+    background-color: #49D189;
+    margin-left: 47.5%;
+    margin-top: 1%;
+
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+
+    position: relative;
+    gap: -5%;
+}
+
+
+
+.rij1 img {
+    padding-bottom: 10%;
+    background-color: #49D189;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 20%;
+}
+
+.rij2 img {
+    padding-bottom: 10%;
+    background-color: #49D189;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 20%;
+}
+
+.rij3 img {
+    padding-bottom: 10%;
+    background-color: #49D189;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 20%;
+}
+
+/* rij 1 */
+.rij1 {
+    margin-bottom: 15%;
+
+}
+
+.rij1 p {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+
+
+
+}
+
+.dennisname p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+}
+
+.olhaname p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+}
+
+.robinname p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+
+}
+
+
+
+
+h3 {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.rij1 h3 {
+    position: absolute;
+    margin-top: -6%;
+}
+
+/* rij1*/
+
+.rij2 p {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+
+
+
+}
+
+.antoonname p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+}
+
+.bellyname p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+}
+
+.mohammedname p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+
+}
+
+
+.arrows {
+    position: absolute;
+    width: 3400px;
+    height: 1800px;
+    top: 335%;
+    transform: translate(-25%, -26%);
+    z-index: -10;
+    margin-top: 70px;
+    /* Andere gewenste stijlen */
+}
+
+.arrows img {
+    width: 40%;
+    z-index: -10;
+
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+.rij2 h3 {
+    position: absolute;
+    margin-top: -6%;
+}
+
+.rij3 p {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+
+
+
+}
+
+.dorotheename p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+}
+
+.dunianame p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+}
+
+.mariekename p {
+    margin-top: -9.25%;
+    margin-left: 1%;
+
+}
+
+
+
+
+h3 {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.rij3 h3 {
+    position: absolute;
+    margin-top: -6%;
+}
+
+
+
+
+.partners {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    margin-top: -2;
+    gap: 1%;
+    margin-bottom: 5%;
+}
+
+.line2 {
+    width: 5%;
+    height: 7px;
+    background-color: #49D189;
+    margin-left: 47.5%;
+    margin-top: 1%;
+
+}
+
+.eleft {
+    display: flex;
+    justify-content: end;
+
+
+
+}
+
+.eleft img {
+    position: relative;
+    margin-top: 15%;
+    margin-bottom: -16%;
+    z-index: 10;
+}
+
+
+#pijlen {
+    margin-top: -25%;
+}
+
+@media (max-width: 768px) {
+    #pijlen {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .wrapperOnder {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    body {
+        margin: 0;
+    }
+
+
+
+
+    .headerpic {
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.127), rgba(0, 0, 0, 0.2)), url(../images/missieenvisie.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        height: 200px;
+    }
+
+    .headerpic .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Pas de transparantie aan indien nodig */
+        z-index: 1;
+    }
+
+    .headerpic h1 {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 30px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 10%;
+        margin-top: -5%;
+    }
+
+    .headerpic h1::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90px;
+        height: 3px;
+        background-color: #49D189;
+
+    }
+
+    .elementen {
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+        margin-top: -180px;
+        position: relative;
+        margin-bottom: 1%;
+    }
+
+
+
+    .links {
+        margin-left: -10px;
+
+
+    }
+
+    .links img {
+        width: 80px;
+        margin-top: 130%;
+    }
+
+    .alinea1 {
+        display: block;
+        justify-content: space-between;
+        gap: 15%;
+        margin-top: 5%;
+    }
+
+    .foto1 {
+        width: 100%;
+    }
+
+    .foto1 img {
+        width: 100%;
+        height: 70%;
+        background-color: #E8F3EC;
+        padding-right: 0%;
+
+
+
+    }
+
+
+
+    .tekst1 p strong {
+        font-weight: bold;
+    }
+
+    .tekst1 {
+        font-family: 'Poppins', sans-serif;
+        width: 90%;
+        margin-left: 5%;
+
+        line-height: 120%;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .alinea2 {
+        display: block;
+        justify-content: space-between;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: row-reverse;
+    }
+
+    .foto2 img {
+        width: 80%;
+        height: 90%;
+        background-color: #E8F3EC;
+        padding-left: 0%;
+        margin-left: 10%;
+
+
+    }
+
+
+
+
+
+    .tekst2 {
+        font-family: 'Poppins', sans-serif;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 0%;
+        text-align: center;
+        line-height: 120%;
+        font-size: 12px;
+        margin-bottom: 10%;
+
+    }
+
+    h2 {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color:
+            #4AEF90;
+        font-weight: bold;
+    }
+
+    .alinea3 {
+        display: block;
+        justify-content: space-between;
+        gap: 15%;
+        margin-top: 7%;
+    }
+
+    .foto3 img {
+        width: 80%;
+        height: 80%;
+        background-color: #E8F3EC;
+        padding-right: 0%;
+        margin-left: 10%;
+
+
+    }
+
+
+
+    .tekst3 p strong {
+        font-weight: bold;
+    }
+
+    .tekst3 {
+        font-family: 'Poppins', sans-serif;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 120%;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .team {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        text-align: center;
+        font-size: 17px;
+        margin-top: 5%;
+        gap: 1%;
+        margin-bottom: 5%;
+    }
+
+    .line1 {
+        width: 5%;
+        height: 7px;
+        background-color: #49D189;
+        margin-left: 47.5%;
+        margin-top: 1%;
+
+    }
+
+    .fotos {
+        display: flex;
+        flex-direction: row;
+        margin-left: 13%;
+
+        position: relative;
+        gap: -5%;
+    }
+
+
+
+    .rij1 img {
+        padding-bottom: 10%;
+        background-color: #49D189;
+        width: 60%;
+        height: 60%;
+        margin-bottom: 20%;
+    }
+
+    .rij2 img {
+        padding-bottom: 10%;
+        background-color: #49D189;
+        width: 60%;
+        height: 60%;
+        margin-bottom: 20%;
+    }
+
+    .rij3 img {
+        padding-bottom: 10%;
+        background-color: #49D189;
+        width: 60%;
+        height: 60%;
+        margin-bottom: 20%;
+    }
+
+    /* rij 1 */
+    .rij1 {
+        margin-bottom: 15%;
+
+    }
+
+    .rij1 p {
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 5px;
+
+
+
+    }
+
+    .dennisname p {
+        margin-top: -10%;
+        margin-left: 1%;
+    }
+
+    .olhaname p {
+        margin-top: -10%;
+        margin-left: 1%;
+    }
+
+    .robinname p {
+        margin-top: -10%;
+        margin-left: 1%;
+
+    }
+
+
+
+
+    h3 {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 5px;
+    }
+
+    .rij1 h3 {
+        position: absolute;
+        margin-top: -6%;
+    }
+
+    /* rij1*/
+
+    .rij2 p {
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 5%;
+
+
+
+    }
+
+    .antoonname p {
+        margin-top: -10%;
+        margin-left: 1%;
+    }
+
+    .bellyname p {
+        margin-top: -10%;
+        margin-left: 1%;
+    }
+
+    .mohammedname p {
+        margin-top: -10%;
+        margin-left: 1%;
+
+    }
+
+
+
+
+    h3 {
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .rij2 h3 {
+        position: absolute;
+        margin-top: -6%;
+    }
+
+    .rij3 p {
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 5px;
+
+
+
+    }
+
+    .dorotheename p {
+        margin-top: -10%;
+        margin-left: 1%;
+    }
+
+    .dunianame p {
+        margin-top: -10%;
+        margin-left: 1%;
+    }
+
+    .mariekename p {
+        margin-top: -10%;
+        margin-left: 1%;
+
+    }
+
+
+
+
+    h3 {
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .rij3 h3 {
+        position: absolute;
+        margin-top: -6%;
+    }
+
+
+
+
+    .partners {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        text-align: center;
+        font-size: 30px;
+        margin-top: -2;
+        gap: 1%;
+        margin-bottom: 5%;
+    }
+
+    .line2 {
+        width: 5%;
+        height: 7px;
+        background-color: #49D189;
+        margin-left: 47.5%;
+        margin-top: 1%;
+
+    }
+
+    .eleft {
+        display: flex;
+        justify-content: end;
+
+
+
+    }
+
+    .eleft img {
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 50px;
+    }
+
+    .logo {
+        width: 100px
+    }
+
+    #pijlen {
+        display: none;
+    }
+
+}
+
+footer {
+    position: relative;
+    z-index: 2;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+
+}
+
+.footerInnerWrapper {
+    flex: 1;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    padding: 4% 5%;
+
+}
+
+.footerInnerWrapper h4 {
+    font-weight: 400;
+    margin-top: -5%;
+}
+
+.footerInnerWrapper h3 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    width: 200px;
+}
+
+.footerInnerWrapper h2 {
+    font-weight: 400;
+    margin-bottom: 1%;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+
+}
+
+#middenFooter {
+    align-items: center;
+}
+
+.facebook {
+    width: 50px;
+}
+
+.iconWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.iconWrapper img {
+    padding-top: 2%;
+    margin-right: 5%;
+    width: 8%;
+    display: none;
+}
+
+#location {
+    padding-top: 1%;
+    width: 4%;
+}
+
+.logofooter {
+    padding-bottom: 30px;
+}
+
+.tekst-footer {
+    font-family: "Poppins", sans-serif;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.footext {
+    font-family: "Poppins", sans-serif;
+    line-height: 22px;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 1300px) {
+
+    footer {
+        position: relative;
+        z-index: 2;
+        height: 20%;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000;
+        margin-top: -50px;
+    }
+
+
+
+}

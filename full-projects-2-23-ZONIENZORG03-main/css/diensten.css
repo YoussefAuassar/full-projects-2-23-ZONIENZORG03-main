@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --Primary: #48d088;
+  --Secondary1: #000;
+  --Secondary2: #0078b8;
+  --Tertiere1: #e7f9ef;
+}
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  max-width: 100%;
+
+}
+
+.wrapper {
+  
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgRight {
+  display: flex;
+  position: relative;
+  margin-right: 0;
+  margin-left: 100%;
+  width: max-content;
+  height: max-content;
+}
+
+.imgWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerpic {
+  position: relative;
+  background-image: url(../images/diensten.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 320px;
+  z-index: -1;
+  
+}
+
+.headerpic .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Pas de transparantie aan indien nodig */
+  z-index: 1;
+}
+
+.headerpic h1 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 55px;
+  position: relative;
+  z-index: 2;
+  font-weight: light;
+  font-weight: bolder;
+}
+
+.headerpic h1::after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 10px;
+  background-color: #49D189;
+  font-weight: light;
+}
+
+#welcomeWrapper {
+  display: flex;
+  padding: 5% 0;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+}
+
+#welcomeImg {
+  width: 50%;
+}
+
+#titleVrijwilligerswerk {
+  font-family: "Lato", sans-serif;
+  font-variant: caps;
+  font-weight: bold;
+  color: white;
+  font-size: 55px;
+}
+
+.line {
+  padding: 3px 0;
+  background-color: #73e2a7;
+  margin-top: -2%;
+  margin-bottom: 2%;
+  width: 100px;
+}
+
+.imgWrapper {
+  margin-top: -6%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.decoImg {
+  width: 70%;
+  z-index: 15;
+}
+.deco {
+  max-width: fit-content;
+  margin: 0;
+}
+
+#swirlRight {
+  width: 300px;
+  margin-right: 0px;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10%;
+  max-width: max-content;
+}
+.infoImgWrapper img {
+  width: 60%;
+  height: 110%;
+
+}
+.infoImgWrapper {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  margin-right: -25%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.basicBig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 27.9%;
+  height: 21%;
+  margin: 0;
+  padding: 0% 16.1%;
+  margin-top: -6.5%;
+  border-radius: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: -5%;
+  background-color: #48d088;
+}
+.basicBig a {
+  padding: 0;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+}
+
+.roundedBig {
+  width: fit-content;
+  height: 5%;
+  padding: 1% 2%;
+  font-family: "Lato", sans-serif;
+  border-radius: 0;
+  font-size: 20px;
+  background-color: var(--Secondary1);
+}
+
+.infoTextWrapper {
+  flex: 1;
+  background-color: var(--Tertiere1);
+  padding: 5% 2%;
+  height: 230px;
+}
+
+.infoTextWrapper h3 {
+    font-size: 25px;
+}
+.infoTextWrapper p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.buttonWrapper {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  justify-content: left;
+  align-items: center;
+}
+
+.buttonWrapper2
+{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  justify-content: left;
+  align-items: center;
+}
+.roundedBig2 {
+  width: fit-content;
+  height: 5%;
+  padding: 1% 2%;
+  font-family: "Lato", sans-serif;
+  border-radius: 0;
+  font-size: 20px;
+  color: white;
+  background-color: var(--Primary);
+  
+}
+
+.buttonWrapper2 { 
+  justify-content: left;
+}
+
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  #welcomeImg {
+    width: 70%;
+  }
+
+  #titleVrijwilligerswerk {
+    font-size: 25pt;
+  }
+
+  .basicBig {
+    width: 100%;
+    height: auto;
+    padding: 8% 12%;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .roundedBig {
+    font-size: 16px;
+    padding: 0.5% 1%;
+  }
+
+  .infoWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoImgWrapper {
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .infoImgWrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  .infoTextWrapper {
+    padding: 8% 5%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .footerInnerWrapper {
+    padding: 4% 3%;
+  }
+
+  .footerInnerWrapper h3 {
+    font-size: 25px;
+    display: flex;
+  }
+.footer{
+  display: flex;
+}
+  .iconWrapper img {
+    padding-top: 0;
+    margin-right: 5px;
+    width: 20px;
+  }
+}
+.bolletjes1 img {
+  position: absolute;
+  width: 10%;
+  top: 364%;
+  transform: translate(900%, -10%);
+  z-index: 12;
+}
+
+
+footer {
+	position: relative;
+	z-index: 2;
+	height: 20%;
+text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+
+	}
+
+	.footerInnerWrapper {
+	flex: 1;
+	width: min-content;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	color: white;
+	padding: 4% 5%;
+
+	}
+
+	.footerInnerWrapper h4 {
+	font-weight: 400;
+	margin-top: -5%;
+	}
+
+	.footerInnerWrapper h3 {
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 15%;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	line-height: 30px;
+	width: 200px;
+	}
+
+	.footerInnerWrapper h2 {
+	font-weight: 400;
+	margin-bottom: 1%;
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	padding-bottom: 20px;
+
+	}
+
+	#middenFooter {
+	align-items: center; }
+
+	.facebook {
+	  width: 50px;
+	}
+
+	.iconWrapper {
+	  display: flex;
+	  flex-direction: row;
+	  align-items: start;
+	  }
+	  .iconWrapper img {
+	  padding-top: 2%;
+	  margin-right: 5%;
+	  width: 8%;
+	  display: none;
+	  }
+
+	  #location {
+	  padding-top: 1%;
+	  width: 4%;
+	  }
+
+	  .logofooter {
+	  padding-bottom: 30px;
+	  }
+
+	  .tekst-footer {
+	  font-family: "Poppins", sans-serif;
+	  line-height: 22px;
+	  padding: 10px;
+
+	  }
+
+	  .footext {
+	  font-family: "Poppins", sans-serif;
+	  line-height: 22px;
+	  line-height: 25px;
+	  padding-bottom: 5px;
+	  }
+@media (min-width: 1300px){
+
+  footer {
+		position: relative;
+		z-index: 2;
+		height: 20%;
+	  text-align: left;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #000;
+  	margin-top: -50px;
+		}
+
+
+  
+}

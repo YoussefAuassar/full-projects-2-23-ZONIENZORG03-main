@@ -1,0 +1,515 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headertext */
+  /* Headertext */
+.headerpic {
+  position: relative;
+  overflow: hidden;
+  height: 320px;
+}
+
+.bgcolor {
+  background-color: rgba(73, 209, 137, 0.20); /* Achtergrondkleur met een lagere opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.headerpic h1 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 55px;
+  position: relative;
+  z-index: 1;
+}
+
+.headerpic h1::after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 10px;
+  background-color: #49D189;
+}
+.lijn {
+  position: absolute;
+  width: 30%;
+  top: 30%;
+  left: 10%;
+  transform: translate(-35%, -10%);
+  z-index: 2;
+  rotate: 320deg;
+  /* Andere gewenste stijlen */
+}
+
+.lijn img {
+  width: 40%;
+  z-index: 10;
+  
+}
+  
+  /* Content */
+  .content-section {
+    background-color: #49D189;
+    width: 100%;
+    padding-bottom: 50px;
+   
+  }
+  
+  .content {
+    display: flex;
+    font-family: 'Poppins' , sans-serif;
+    
+  }
+  
+  
+  /* LEFT-Content */
+  .left-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  
+  
+  .left-content h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 0;
+    font-size: 55px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 150px;
+    
+  }
+  
+  .left-content p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-left: 0px;
+  }
+  
+  form {
+      display: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border: none;
+    }
+    
+    form label {
+      padding-right: 310px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 200px;
+     
+    }
+    
+    label{
+      margin-top: 500px;
+    }
+    form input[type="text"],
+    form select {
+      padding-bottom: 20px;
+      flex-basis: 48%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border: none;
+    }
+  
+    form input[type="email"],
+    form select { 
+      padding: 10px;
+      width: 95%;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border: none;
+      
+    }
+    form input[type="bericht"],
+    form select { 
+      padding-top: 200px;
+      width: 98%;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border: none;
+      
+    }
+  
+    form select#selectie {
+      width: 99%; 
+    }
+    form select#betaalmethode {
+      width: 99%; 
+    }
+  
+    form input[type="checkbox"] {
+      margin-top: 5px;
+    }
+    
+    form input[type="submit"] {
+      font-family: 'Poppins' , sans-serif;
+      font-weight: bold;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      padding:20px;
+      font-size: 16px;
+      display: block;
+      width: 300px;
+      margin-left: 100px;
+      margin-top: 50px;
+  
+    }
+    
+    
+    form input[type="submit"]:hover {
+      background-color: #3eab6f;
+    }
+    
+    .form-row {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    form .form-row label {
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding-top: 50px;
+    }
+    .form-column {
+      padding-left: 100px;
+      
+    }
+  /* RIGHT-Content */
+
+.right-content {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  margin-bottom: -3.33%;
+}
+
+.right-content .image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.right-content .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+  
+  
+   .team {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  text-align: left;
+  font-size: 48px;
+  margin-top: 5%;
+  gap: 1%;
+  margin-bottom: 5%;
+  margin-left: 220px;
+}
+
+.line1 {
+  width: 5%;
+  height: 7px;
+  background-color: #49D189;
+  margin-left: 5px;
+  margin-top: 1%;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.location-photo {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.location-map {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.info-blocks {
+  display: flex;
+  gap: 180px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin-right: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: calc(100% - 1220px);
+  
+}
+
+.info-blocks .info-block1 {
+    flex: 1;
+    background-color: #49D189;
+    padding: 85px;
+    padding-bottom: 110px;
+    color: #fff;
+    text-align: center;
+}
+
+.bgcolor1 {
+  background-color: rgba(73, 209, 137, 0.20); /* Achtergrondkleur met een lagere opacity */
+  position: absolute;
+  top: 1485px;
+  left: -10px;
+  width: 30%;
+  height: 55%;
+  z-index: -1;
+}
+
+.bgcolor2 {
+  background-color: rgba(73, 209, 137, 0.20); /* Achtergrondkleur met een lagere opacity */
+  position: absolute;
+  top: 2085px;
+  left: 10px;
+  width: 100%;
+  height: 55%;
+  z-index: -1;
+}
+.bgcolor3 {
+  background-color: rgba(73, 209, 137, 0.20); /* Achtergrondkleur met een lagere opacity */
+  position: absolute;
+  top: 2685px;
+  left: -10px;
+  width: 30%;
+  height: 55%;
+  z-index: -1;
+}
+.bgcolor4 {
+  background-color: rgba(73, 209, 137, 0.20); /* Achtergrondkleur met een lagere opacity */
+  position: absolute;
+  top: 3285px;
+  left: 10px;
+  width: 100%;
+  height: 65%;
+  z-index: -1;
+}
+.info-block1 h2 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    white-space: nowrap; /* Toevoeging van white-space */
+  }
+  
+  .info-block1 p {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: block;
+    white-space: nowrap; /* Toevoeging van white-space */
+  }
+  
+
+
+
+  .info-blocks .info-block2 {
+    flex: 1;
+    background-color: #49D189;
+    padding: 85px;
+    padding-bottom: 120px;
+    color: #fff;
+    text-align: center;
+}
+
+.info-block2 h2 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    white-space: nowrap; /* Toevoeging van white-space */
+  }
+  
+  .info-block2 p {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: block;
+    white-space: nowrap; /* Toevoeging van white-space */
+  }
+  
+
+  .info-blocks .info-block3 {
+    flex: 1;
+    background-color: #49D189;
+    padding: 85px;
+    padding-bottom: 120px;
+    color: #fff;
+    text-align: center;
+}
+
+.info-block3 h2 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    white-space: nowrap; /* Toevoeging van white-space */
+  }
+  
+  .info-block3 p {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: block;
+    white-space: nowrap; /* Toevoeging van white-space */
+  }
+  
+  .bolletjes img {
+    color: #ffffff;
+    text-align: center;
+    width: 10%;
+    bottom: -430px;
+    position: relative;
+    float: right;
+    z-index: 2;
+  }
+
+  footer {
+    position: relative;
+    z-index: 2;
+    height: 20%;
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+  
+    }
+  
+    .footerInnerWrapper {
+    flex: 1;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    padding: 4% 5%;
+  
+    }
+  
+    .footerInnerWrapper h4 {
+    font-weight: 400;
+    margin-top: -5%;
+    }
+  
+    .footerInnerWrapper h3 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    width: 200px;
+    }
+  
+    .footerInnerWrapper h2 {
+    font-weight: 400;
+    margin-bottom: 1%;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+  
+    }
+  
+    #middenFooter {
+    align-items: center; }
+  
+    .facebook {
+      width: 50px;
+    }
+  
+    .iconWrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      }
+      .iconWrapper img {
+      padding-top: 2%;
+      margin-right: 5%;
+      width: 8%;
+      display: none;
+      }
+  
+      #location {
+      padding-top: 1%;
+      width: 4%;
+      }
+  
+      .logofooter {
+      padding-bottom: 30px;
+      }
+  
+      .tekst-footer {
+      font-family: "Poppins", sans-serif;
+      line-height: 22px;
+      padding: 10px;
+  
+      }
+  
+      .footext {
+      font-family: "Poppins", sans-serif;
+      line-height: 22px;
+      line-height: 25px;
+      padding-bottom: 5px;
+      }
+  @media (min-width: 1300px){
+  
+    footer {
+      position: relative;
+      z-index: 2;
+      height: 20%;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      margin-top: -50px;
+      }
+  
+  
+    
+  }

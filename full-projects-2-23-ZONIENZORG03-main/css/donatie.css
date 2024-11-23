@@ -1,0 +1,660 @@
+.innerWrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.afbeelding {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 300px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/activiteiten.jpg);
+}
+
+.tekstBoven {
+
+    font-family: 'Lato', sans-serif;
+    max-width: 1200px;
+    padding-top: 70px;
+    align-items: right;
+    display: flex;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: 50%
+}
+
+.tekstBoven h1 {
+    background-color: white;
+    font-size: 42px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 15px;
+    z-index: 1;
+
+}
+
+.tekstBoven h1:nth-child(1) {
+    width: 75%;
+    margin-left: 0%;
+}
+
+.tekstBoven h1:nth-child(2) {
+    width: 97%;
+}
+
+.tekstBoven h1:nth-child(3) {
+    width: 46%;
+    margin-left: 0%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    width: 50%;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-top: -20%;
+    margin-bottom: 50px;
+    font-size: 16px;
+
+}
+
+.boven {
+    margin: 2%;
+    background-color: #49d189;
+    padding: 0%;
+    width: 40%;
+    height: 5%;
+}
+
+.onder {
+    margin-top: 3%;
+    background-color: #49d189;
+    padding: 2%;
+    width: 40%;
+    height: 5%;
+
+}
+
+.buttons a {
+    font-size: 24px;
+    padding: 2% 5%;
+    margin: 1%;
+    color: white;
+
+
+}
+
+.buttons a:hover {
+    background-color: #8CE4B7;
+}
+
+#welcomeWrapper {
+    display: flex;
+    padding: 5% 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/activiteiten.jpg);
+    background-position-y: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+#welcomeWrapper .overlay {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Pas de transparantie aan indien nodig */
+    height: 450px;
+    z-index: 0;
+}
+
+.element {
+    display: flex;
+    float: right;
+    margin-right: -1%;
+    margin-top: 10%;
+    transform: rotate(310deg);
+
+}
+
+
+
+.maandelijks {
+    margin-top: 18%;
+    margin-left: 8%;
+    width: 40%;
+    line-height: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.bolletjes1 img {
+    position: absolute;
+    width: 10%;
+    top: 76%;
+    transform: translate(900%, -10%);
+    z-index: 12;
+}
+
+
+
+@media (max-width: 320px) {
+    .submenu {
+
+        display: none;
+
+        position: absolute;
+
+        background-color: white;
+
+        padding: 10px;
+
+        z-index: 50;
+
+        box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.75);
+
+    }
+
+
+
+
+    .submenu li {
+
+        margin-bottom: 5px;
+
+    }
+
+
+
+
+    li:hover .submenu {
+
+        display: block;
+
+    }
+
+
+
+
+    ul,
+
+    li {
+
+        text-align: left;
+
+    }
+
+
+
+
+    header {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        padding: 10px 10px 0 10px;
+
+    }
+
+
+
+
+    .logo {
+
+        width: 35%;
+
+        margin-top: -1%;
+
+        margin-left: 2%;
+
+    }
+
+
+
+
+    .flag {
+
+        width: 2rem;
+
+        margin-left: 9rem;
+
+        margin-top: 0.5rem;
+
+    }
+
+
+
+
+    nav {
+
+        position: fixed;
+
+        right: 0;
+
+        top: 0;
+
+        height: 100vh;
+
+        background-color: #656565;
+
+        width: 100%;
+
+        z-index: 2;
+
+        transform: translateX(100%);
+
+    }
+
+
+
+
+    .doneer {
+
+        background-color: #48d088;
+
+        margin-top: 1.2rem;
+
+        width: 50%;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+
+
+
+    .doneer:hover {
+
+        background-color: #8ce4b7;
+
+    }
+
+
+
+
+    ul {
+
+        list-style: none;
+
+        padding: 0;
+
+        margin-top: 7em;
+
+    }
+
+
+
+
+    ul a {
+
+        text-decoration: none;
+
+        font-size: 1.3rem;
+
+        font-family: "articulat-cf", sans-serif;
+
+        font-weight: 600;
+
+        font-style: normal;
+
+        color: white;
+
+        padding: 0.6em;
+
+        text-align: center;
+
+        display: block;
+
+    }
+
+
+
+
+
+
+    .menu {
+
+        font-size: 2.5em;
+
+        margin-top: 0.2em;
+
+        cursor: pointer;
+
+    }
+
+
+
+
+    .open-nav {
+
+        transform: translateX(0%);
+
+        animation: rightSlide 1s backwards;
+
+    }
+
+
+
+
+    @keyframes rightSlide {
+
+        from {
+
+            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+        }
+
+
+
+
+        to {
+
+            clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+
+        }
+
+    }
+
+
+
+
+    .close {
+
+        float: right;
+
+        margin: 0.8em 0.4em 0.5em 0.4em;
+
+        font-size: 2.05em;
+
+        color: white;
+
+        animation: leftSlide 1s backwards;
+
+        cursor: pointer;
+
+    }
+
+    .afbeelding {
+        position: relative;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        height: 300px;
+        object-fit: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(/images/activiteiten.jpg);
+    }
+
+    .tekstBoven {
+
+        font-family: 'Lato', sans-serif;
+        max-width: 1200px;
+        padding-top: 70px;
+        align-items: right;
+        display: flex;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        float: right;
+        margin-left: 50%
+    }
+
+    .tekstBoven h1 {
+        background-color: white;
+        font-size: 42px;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        line-height: 15px;
+        z-index: 1;
+
+    }
+
+    .tekstBoven h1:nth-child(1) {
+        width: 75%;
+        margin-left: 0%;
+    }
+
+    .tekstBoven h1:nth-child(2) {
+        width: 97%;
+    }
+
+    .tekstBoven h1:nth-child(3) {
+        width: 46%;
+        margin-left: 0%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        position: relative;
+        width: 50%;
+        line-height: 150%;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-weight: bold;
+        margin-left: 8%;
+        margin-top: -20%;
+        margin-bottom: 50px;
+        font-size: 16px;
+
+    }
+
+    .boven {
+        margin: 2%;
+        background-color: #49d189;
+        padding: 0%;
+        width: 40%;
+        height: 5%;
+    }
+
+    .onder {
+        margin-top: 3%;
+        background-color: #49d189;
+        padding: 2%;
+        width: 40%;
+        height: 5%;
+
+    }
+
+    .buttons a {
+        font-size: 24px;
+        padding: 2% 5%;
+        margin: 1%;
+        color: white;
+
+
+    }
+
+    .buttons a:hover {
+        background-color: #8CE4B7;
+    }
+
+    #welcomeWrapper {
+        display: flex;
+        padding: 5% 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-image: url(/images/activiteiten.jpg);
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        z-index: 1;
+    }
+
+    #welcomeWrapper .overlay {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        /* Pas de transparantie aan indien nodig */
+        height: 300px;
+        z-index: 0;
+    }
+
+    .element {
+        display: flex;
+        float: right;
+        margin-right: -1%;
+        margin-top: 10%;
+        transform: rotate(310deg);
+
+    }
+
+    .element img {
+        width: 600px;
+    }
+
+    .maandelijks {
+        margin-top: 18%;
+        margin-left: 8%;
+        width: 40%;
+        line-height: 25px;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-size: 45px;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+    }
+
+    .bolletjes1 img {
+        position: absolute;
+        width: 10%;
+        top: 126%;
+        transform: translate(900%, -10%);
+        z-index: 12;
+    }
+
+  
+
+    #welcomeWrapper {
+        display: flex;
+        padding: 5% 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-image: url(/images/activiteiten.jpg);
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        z-index: 1;
+    }
+
+    #welcomeWrapper .overlay {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        /* Pas de transparantie aan indien nodig */
+        height: 205px;
+        z-index: 0;
+    }
+
+
+    .iconWrapper img {
+        padding-top: 7%;
+        margin-right: 1%;
+        width: 5%;
+    }
+
+    #location {
+        padding-top: 5%;
+        width: 4%;
+    }
+}
+
+
+@media (max-width:425px){
+    .element img {
+        display: none;
+    }
+    .tekstBoven{
+        margin-left: 5%;
+        align-items: center;
+    }
+    .tekstBoven h1 {
+        margin-top: -20px;
+        line-height: 20px;
+        font-size: 30px;
+    }
+    .buttons {
+        flex-direction: row;
+    gap: 30px;
+    margin-top: -50%;
+    margin-left: 37px;
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 70px;
+
+    }
+    .overlay {
+        display: none;
+    }
+    #welcomeWrapper 
+ {
+        height: 450px;
+        background-position-y: 0;
+    }
+    .maandelijks h1 {
+        line-height: 50px;
+    }
+    .maandelijks {
+        text-align: left;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+}

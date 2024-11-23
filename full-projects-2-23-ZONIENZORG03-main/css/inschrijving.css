@@ -1,0 +1,398 @@
+/* Reset CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Headertext */
+.headerpic {
+  position: relative;
+  overflow: hidden;
+  height: 320px;
+}
+
+.bgcolor {
+  background-color: rgba(73, 209, 137, 0.20); /* Achtergrondkleur met een lagere opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.headerpic h1 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 55px;
+  position: relative;
+  z-index: 1;
+}
+
+.headerpic h1::after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 10px;
+  background-color: #49D189;
+}
+
+
+/* Content */
+.content-section {
+  background-color: rgb(73, 209, 137);
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* LEFT-Content */
+.left-content {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px; /* Voeg deze regel toe */
+}
+
+.left-content h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 0;
+  font-size: 55px;
+  position: relative;
+  margin-top: 0;
+  margin-left: 150px;
+}
+
+.left-content p {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  font-size: 22px;
+  position: relative;
+  margin-left: 80px;
+}
+
+form {
+  display: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+form label {
+  flex-basis: 100%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+form input[type="text"],
+form select {
+  flex-basis: 48%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+form input[type="email"],
+form select { 
+  padding: 10px;
+  width: 95%;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+form select#selectie {
+  width: 99%; 
+  border: none;
+}
+
+form select#betaalmethode {
+  width: 99%; 
+  border: none;
+}
+
+form input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+form input[type="button"] {
+  font-family: 'Poppins' , sans-serif;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 16px;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: none;
+}
+
+.vervoer{
+  padding-bottom: 20px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #3eab6f;
+}
+
+.form-row {
+  display: flex;
+}
+
+form .form-row label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-column {
+  padding-left: 100px;
+  margin-bottom: 10px;
+}
+
+/* RIGHT-Content */
+.right-content {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  margin-bottom: -3.33%;
+}
+
+.right-content .image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.right-content .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/*extra*/
+.lijn {
+  position: absolute;
+  width: 50%;
+  top: 60%;
+  left: 65%;
+  transform: translate(-35%, -10%);
+  z-index: 2;
+}
+
+.lijn img {
+  width: 40%;
+  z-index: 10;
+}
+
+.vnaamicon {
+  background-image: url('/images/elementen/user.png');
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Verplaatst de afbeelding 10 pixels naar links */
+  background-size: 5%;
+}
+
+.vemailicon {
+  background-image: url('/images/elementen/email.png');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 3%;
+}
+
+.bolletjes1 img {
+  position: absolute;
+  width: 10%;
+  top: 181%;
+  transform: translate(900%, -10%);
+  z-index: 12;
+}
+
+/* Media query voor 320px breedte */
+@media only screen and (max-width: 320px) {
+  .headerpic h1 {
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  
+  .left-content h2 {
+    padding-top: 50px;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  
+  .left-content p {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  form {
+    padding-left: 20px;
+  }
+  
+  form input[type="submit"] {
+    padding: 10px;
+    font-size: 12px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  form .form-row label {
+    font-size: 14px;
+  }
+  
+  .form-column {
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+
+footer {
+	position: relative;
+	z-index: 2;
+	height: 20%;
+text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+
+	}
+
+	.footerInnerWrapper {
+	flex: 1;
+	width: min-content;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	color: white;
+	padding: 4% 5%;
+
+	}
+
+	.footerInnerWrapper h4 {
+	font-weight: 400;
+	margin-top: -5%;
+	}
+
+	.footerInnerWrapper h3 {
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 15%;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	line-height: 30px;
+	width: 200px;
+	}
+
+	.footerInnerWrapper h2 {
+	font-weight: 400;
+	margin-bottom: 1%;
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	padding-bottom: 20px;
+
+	}
+
+	#middenFooter {
+	align-items: center; }
+
+	.facebook {
+	  width: 50px;
+	}
+
+	.iconWrapper {
+	  display: flex;
+	  flex-direction: row;
+	  align-items: start;
+	  }
+	  .iconWrapper img {
+	  padding-top: 2%;
+	  margin-right: 5%;
+	  width: 8%;
+	  display: none;
+	  }
+
+	  #location {
+	  padding-top: 1%;
+	  width: 4%;
+	  }
+
+	  .logofooter {
+	  padding-bottom: 30px;
+	  }
+
+	  .tekst-footer {
+	  font-family: "Poppins", sans-serif;
+	  line-height: 22px;
+	  padding: 10px;
+
+	  }
+
+	  .footext {
+	  font-family: "Poppins", sans-serif;
+	  line-height: 22px;
+	  line-height: 25px;
+	  padding-bottom: 5px;
+	  }
+@media (min-width: 1300px){
+
+  footer {
+		position: relative;
+		z-index: 2;
+		height: 20%;
+	  text-align: left;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #000;
+  	margin-top: -50px;
+		}
+
+
+  
+}

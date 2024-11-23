@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+.navbar {
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo {
+	width: 10rem;
+	cursor: pointer;
+}
+
+.language {
+	width: 1.5rem;
+	height: 1rem;
+	cursor: pointer;
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.button-1 {
+	margin-left: 25px;
+	cursor: pointer;
+	color: white;
+	background-color: #49d189;
+	border: none;
+	padding: 15px 25px;
+	font-weight: 700;
+	box-shadow: 2px 2px 2px rgb(231, 231, 231);
+}
+
+.button-1:hover {
+	background-color: #8ce4b7;
+}
+
+/* Main */
+
+main {
+	max-width: 1200px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.headerpic {
+	position: relative;
+	background-image: url(../images/hofvanorban.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	height: 320px;
+	background-position-y: 37%;
+	z-index: -1;
+  }
+  
+  .headerpic .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4); /* Pas de transparantie aan indien nodig */
+	z-index: 1;
+  }
+  
+  .headerpic h1 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 55px;
+	position: relative;
+	z-index: 2;
+	font-weight: light;
+  }
+  
+  .headerpic h1::after {
+	content: "";
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70px;
+	height: 10px;
+	background-color: #49D189;
+	font-weight: light;
+  }
+.section-2 {
+	display: flex;
+	margin-top: 50px;
+	font-family: "Poppins", sans-serif;
+	justify-content: space-between;
+	gap: 10%;
+	line-height: 25px;
+}
+
+.uniek {
+	font-weight: bold;
+}
+
+.hof-image {
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+.section-3 {
+	text-align: center;
+	margin-top: 130px;
+	background-color: #e7f9ef;
+	padding: 50px;
+	
+}
+
+.meer-info {
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.meer-info h2 {
+	position: relative;
+	top: 1.5rem;
+}
+
+.meer-info::before {
+	content: "";
+	position: absolute;
+	top: 1555px;
+	left: 58px;
+	width: 100px;
+	height: 7px;
+	background-color: #49d189;
+	z-index: 1;
+
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.button-2 {
+	cursor: pointer;
+	color: white;
+	background-color: #49d189;
+	border: none;
+	padding: 15px 50px;
+	font-weight: 700;
+	box-shadow: 2px 2px 2px rgb(231, 231, 231);
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+.button-2:hover {
+	background-color: #8ce4b7;
+}
+
+.section-4 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+.daltons {
+	width: 300px;
+	height: 600px;
+}
+
+.stads {
+	width: 350px;
+	height: 500px;
+}
+
+.lijn {
+	margin-left: 78.6%;
+	margin-top: -100px;
+	width: 320px;
+	
+
+}
+
+.bol {
+	margin-top: -200px;
+	width: 120px;
+
+	
+	
+}
+.bolletjes2 img {
+	position: absolute;
+	width: 10%;
+	top: 331%;
+	transform: translate(900%, -10%);
+	z-index: 12;
+  }
+footer {
+	height: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+  }
+  
+  .footerInnerWrapper {
+	flex: 1;
+	width: min-content;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	color: white;
+	padding: 4% 5%;
+  
+  }
+  
+  .footerInnerWrapper h4 {
+  font-weight: 400;
+  margin-top: -5%;
+  
+  }
+  
+  .footerInnerWrapper h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 15%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 35px;
+  }
+  
+  .footerInnerWrapper h2 {
+	font-weight: 400;
+	margin-bottom: 1%;
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	padding-bottom: 20px;
+  
+  }
+  
+  #middenFooter {
+	align-items: center; }
+
+	.facebook {
+		width: 50px;
+	}
+
+	.iconWrapper {
+		display: flex;
+		flex-direction: row;
+	    align-items: start;
+	  }
+	  .iconWrapper img {
+		padding-top: 2%;
+		margin-right: 5%;
+		width: 8%;
+	  }
+	  
+	  #location {
+		padding-top: 1%;
+		width: 4%;
+	  }   
+
+	  .logofooter {
+		padding-bottom: 30px;
+	  }
+
+	  .tekst-footer {
+		font-family: "Poppins", sans-serif;
+		line-height: 22px;
+
+	  }
+
+	  .footext {
+		font-family: "Poppins", sans-serif;
+		line-height: 22px;
+		line-height: 25px;
+		padding-bottom: 5px;
+	  }
+
+	
+
+
+
+
+@media (min-width:320px) {
+	
+	.section-2 {
+		flex-direction: column;
+	}
+	.lijn {
+		display: none;
+	}
+}
