@@ -128,8 +128,7 @@ body {
 }
 
 .foto2 img {
-    width: 45%;
-    height: 90%;
+    max-width: 45%;
     background-color: #E8F3EC;
     padding-left: 26%;
 
@@ -165,8 +164,7 @@ h2 {
 }
 
 .foto3 img {
-    width: 80%;
-    height: 80%;
+    max-width: 80%;
     background-color: #E8F3EC;
     padding-right: 20%;
 
