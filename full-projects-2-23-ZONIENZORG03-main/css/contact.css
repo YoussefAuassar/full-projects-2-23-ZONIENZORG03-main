@@ -285,7 +285,7 @@ body {
 
 .info-blocks .info-block1 {
     flex: 1;
-    background-color: #49D189;
+    background-color: #000000;
     padding: 85px;
     padding-bottom: 110px;
     color: #fff;
@@ -349,7 +349,7 @@ body {
 
   .info-blocks .info-block2 {
     flex: 1;
-    background-color: #49D189;
+    background-color: #000000;
     padding: 85px;
     padding-bottom: 120px;
     color: #fff;
@@ -374,7 +374,7 @@ body {
 
   .info-blocks .info-block3 {
     flex: 1;
-    background-color: #49D189;
+    background-color: #000000;
     padding: 85px;
     padding-bottom: 120px;
     color: #fff;
