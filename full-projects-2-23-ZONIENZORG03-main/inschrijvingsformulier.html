@@ -1,257 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zoniënzorg | Inschrijvingsformulier</title>
-    
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="./images/elementen/iconn.svg" />
-    <script type="module" src="./js/taziScript.js"></script>
-    <link rel="stylesheet" href="css/inschrijving.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container" id="fullScreen">
-        <div class="navbar"></div>
-        <a href="index.html"
-          ><img class="logoone" src="images/elementen/logo.png" alt="Logo"
-        /></a>
-        <nav>
-          <ul>
-            <li><a class="home" href="index.html">HOME</a></li>
-            <li class="dropdown">
-              <a href="missie.html">OVER ONS</a>
-            </li>
-            <li class="dropdown">
-              <a href="#">WERKING</a>
-              <div class="dropdown-content">
-                <a href="activiteiten.html">Activiteiten</a>
-                <a href="diensten.html">Diensten</a>
-                <a href="vrijwilligerswerk.html">Vrijwilligerswerk</a>
-           
-              </div>
-            </li>
-            <li class="dropdown">
-              <a href="#">LOCATIES</a>
-              <div class="dropdown-content">
-                <a href="hofvanorban.html">Hof van Orban</a>
-                <a href="nonna.html">Nonna</a>
-                <a href="zaalverhuur.html">Zaalverhuur</a>
-              </div>
-            </li>
-            <li class="dropdown">
-              <a href="contact.html">CONTACT</a>
-              <div class="dropdown-content">
-                <a href="FAQ.html">FAQ</a>
-              </div>
-            </li>
-          </ul>
-        </nav>
-        <img
-          class="language"
-          src="images/elementen/Flag_of_France.svg.webp"
-          alt="Franse vlag"
-        />
-        <button class="button" onclick="window.location.href='donatie.html'">
-          <span>DONEER €</span>
-        </button>
-      </div>
-      <div>
-        <a href="index.html"
-          ><img
-            class="logotwo"
-            id="logotwo"
-            src="images/elementen/logo.png"
-            alt="Logo"
-        /></a>
-      </div>
-      <div class="hamburger-menu" id="mobile">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-          <span></span>
-        </label>
 
-        <ul class="menu__box">
-          <li><a class="menu__item" href="index.html">Home</a></li>
-          <li><a class="menu__item" href="missie.html">Missie & Visie</a></li>
-          <li><a class="menu__item" href="activiteiten.html">Activiteiten</a></li>
-          <li><a class="menu__item" href="donatie.html">Donaties</a></li>
-          <li><a class="menu__item" href="contact.html">Contact</a></li>
-          <img
-            src="/images/elementen/Flag_of_France.svg.webp"
-            alt=""
-            width="50px"
-          />
-          <li>
-            <button class="button" style="margin-top: 10px; margin-left: -10px">
-              DONEER €
-            </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Meta Description -->
+  <meta name="description"
+    content="Schrijf je in voor activiteiten bij Zonienzorg, zoals pedicure, maaltijden, spelnamiddagen en meer. Meld je aan via ons gebruiksvriendelijke inschrijvingsformulier." />
+  <meta name="keywords"
+    content="Zonienzorg, inschrijvingsformulier, activiteiten, pedicure, maaltijden, spelnamiddag, donaties, vrijwilligerswerk, Brussel" />
+  <meta name="author" content="Zonienzorg VZW" />
+
+  <title>Zoniënzorg | Inschrijvingsformulier</title>
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="./images/elementen/iconn.svg" />
+  <script type="module" src="./js/taziScript.js"></script>
+  <link rel="stylesheet" href="css/inschrijving.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container" id="fullScreen">
+      <div class="navbar"></div>
+      <a href="index.html"><img class="logoone" src="images/elementen/logo.png" alt="Zoniënzorg logo" /></a>
+      <nav>
+        <ul>
+          <li><a class="home" href="index.html">HOME</a></li>
+          <li class="dropdown">
+            <a href="missie.html">OVER ONS</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">WERKING</a>
+            <div class="dropdown-content">
+              <a href="activiteiten.html">Activiteiten</a>
+              <a href="diensten.html">Diensten</a>
+              <a href="vrijwilligerswerk.html">Vrijwilligerswerk</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">LOCATIES</a>
+            <div class="dropdown-content">
+              <a href="hofvanorban.html">Hof van Orban</a>
+              <a href="nonna.html">Nonna</a>
+              <a href="zaalverhuur.html">Zaalverhuur</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="contact.html">CONTACT</a>
+            <div class="dropdown-content">
+              <a href="FAQ.html">FAQ</a>
+            </div>
           </li>
         </ul>
-      </div>
-    </header>
-    <section>
-      <div class="headerpic">
-        <div class="bgcolor"></div>
-        <h1>inschrijvingsformulier</h1>
-      </div>
-    </section>
-    <img src="./images/elementen/lijn1.png" class="lijn" />
-    <section class="content-section">
-      <div class="content">
-        <div class="left-content">
-          <h2>Schrijf je in voor gewenste activiteit!</h2>
-          <p>Ben je al ingeschreven? Wacht dan op een mail.</p>
+      </nav>
+      <img class="language" src="images/elementen/Flag_of_France.svg.webp" alt="Franse vlag" />
+      <button class="button" onclick="window.location.href='donatie.html'">
+        <span>DONEER €</span>
+      </button>
+    </div>
+    <div>
+      <a href="index.html"><img class="logotwo" id="logotwo" src="images/elementen/logo.png"
+          alt="Zoniënzorg logo" /></a>
+    </div>
+    <div class="hamburger-menu" id="mobile">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
 
-          <form>
-            <div class="form-row">
-              <div class="form-column">
-                <label for="voornaam">Voornaam</label><br />
-                <input
-                  type="text"
-                  id="voornaam"
-                  name="voornaam"
-                  class="vnaamicon"
-                  placeholder=""
-                />
-              </div>
-              <div class="form-column">
-                <label for="achternaam">Achternaam</label><br />
-                <input
-                  type="text"
-                  id="achternaam"
-                  class="vnaamicon"
-                  name="achternaam"
-                  placeholder=""
-                />
-              </div>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Home</a></li>
+        <li><a class="menu__item" href="missie.html">Missie & Visie</a></li>
+        <li><a class="menu__item" href="activiteiten.html">Activiteiten</a></li>
+        <li><a class="menu__item" href="donatie.html">Donaties</a></li>
+        <li><a class="menu__item" href="contact.html">Contact</a></li>
+        <img src="/images/elementen/Flag_of_France.svg.webp" alt="Franse vlag" width="50px" />
+        <li>
+          <button class="button" style="margin-top: 10px; margin-left: -10px">
+            DONEER €
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section>
+    <div class="headerpic">
+      <div class="bgcolor"></div>
+      <h1>inschrijvingsformulier</h1>
+    </div>
+  </section>
+  <img src="./images/elementen/lijn1.png" class="lijn" alt="Decoratieve lijn" />
+  <section class="content-section">
+    <div class="content">
+      <div class="left-content">
+        <h2>Schrijf je in voor gewenste activiteit!</h2>
+        <p>Ben je al ingeschreven? Wacht dan op een mail.</p>
+
+        <form>
+          <div class="form-row">
+            <div class="form-column">
+              <label for="voornaam">Voornaam</label><br />
+              <input type="text" id="voornaam" name="voornaam" class="vnaamicon" placeholder="" />
             </div>
             <div class="form-column">
-              <label for="voornaam">E-mailadres</label> <br />
-              <br />
-              <input
-                type="email"
-                id="email"
-                class="vemailicon"
-                name="email"
-                placeholder=""
-              />
+              <label for="achternaam">Achternaam</label><br />
+              <input type="text" id="achternaam" class="vnaamicon" name="achternaam" placeholder="" />
             </div>
-            <div class="form-column">
-              <label for="selectie">Selecteer de activiteit</label><br />
-              <br />
-              <select id="selectie" name="selectie">
-                <option value="optie0"></option>
-                <option value="Pedicure">Pedicure</option>
-                <option value="Maaltijd van het huis">Maaltijd van het huis</option>
-                <option value="Spelnamiddag">Spelnamiddag</option>
-                <option value="Digidokter">Digidokter</option>
-                <option value="Antipasti met aangepaste wijnen">Antipasti met aangepaste wijnen</option>
-                <option value="Praatsessie">Praatsessie</option>
-                <option value="Zoete namiddag : dessertbuffet">Zoete namiddag : dessertbuffet</option>
-                <option value="Tentoonstelling">Tentoonstelling</option>
-                <option value="Workshop : Aardbeienconfituur">Workshop : Aardbeienconfituur</option>
-              </select>
-            </div>
-            <div class="form-column">
-              <label for="betaalmethode">Betaalmethode</label> <br />
-              <br />
-              <select id="betaalmethode" name="betaalmethode">
-                <option value="kies"></option>
-                <option value="creditcard">Creditcard</option>
-                <option value="paypal">PayPal</option>
-                <option value="ideal">iDEAL</option>
-              </select>
-            </div>
-            <div class="form-row">
-              <div class="form-column">
-                <label class="vervoer">Wilt u extra vervoer? (+10€)</label>
-                <div class="checkbox-container">
-                  <label for="vervoer-ja">
-                    <input
-                      type="radio"
-                      id="vervoer-ja"
-                      name="vervoer"
-                      value="true"
-                    />
-                    Ja
-                  </label>
-                  <label for="vervoer-nee">
-                    <input
-                      type="radio"
-                      id="vervoer-nee"
-                      name="vervoer"
-                      value="false"
-                    />
-                    Nee
-                  </label>
-                </div>
-              </div>
-            </div>
-
-            <input
-              type="button"
-              value="Schrijf je in !"
-              id="schrijfInBtn"
-            />
-          </form>
-        </div>
-
-        <div class="right-content">
-          <div class="image-container">
-            <img src="./images/Terras1.jpeg" alt="Terrasafbeelding" />
-            <div class="overlay"></div>
           </div>
+          <div class="form-column">
+            <label for="voornaam">E-mailadres</label> <br />
+            <br />
+            <input type="email" id="email" class="vemailicon" name="email" placeholder="" />
+          </div>
+          <div class="form-column">
+            <label for="selectie">Selecteer de activiteit</label><br />
+            <br />
+            <select id="selectie" name="selectie">
+              <option value="optie0"></option>
+              <option value="Pedicure">Pedicure</option>
+              <option value="Maaltijd van het huis">Maaltijd van het huis</option>
+              <option value="Spelnamiddag">Spelnamiddag</option>
+              <option value="Digidokter">Digidokter</option>
+              <option value="Antipasti met aangepaste wijnen">Antipasti met aangepaste wijnen</option>
+              <option value="Praatsessie">Praatsessie</option>
+              <option value="Zoete namiddag : dessertbuffet">Zoete namiddag : dessertbuffet</option>
+              <option value="Tentoonstelling">Tentoonstelling</option>
+              <option value="Workshop : Aardbeienconfituur">Workshop : Aardbeienconfituur</option>
+            </select>
+          </div>
+          <div class="form-column">
+            <label for="betaalmethode">Betaalmethode</label> <br />
+            <br />
+            <select id="betaalmethode" name="betaalmethode">
+              <option value="kies"></option>
+              <option value="creditcard">Creditcard</option>
+              <option value="paypal">PayPal</option>
+              <option value="ideal">iDEAL</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-column">
+              <label class="vervoer">Wilt u extra vervoer? (+10€)</label>
+              <div class="checkbox-container">
+                <label for="vervoer-ja">
+                  <input type="radio" id="vervoer-ja" name="vervoer" value="true" />
+                  Ja
+                </label>
+                <label for="vervoer-nee">
+                  <input type="radio" id="vervoer-nee" name="vervoer" value="false" />
+                  Nee
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <input type="button" value="Schrijf je in !" id="schrijfInBtn" />
+        </form>
+      </div>
+
+      <div class="right-content">
+        <div class="image-container">
+          <img src="./images/Terras1.jpeg" alt="Afbeelding van het terras" />
+          <div class="overlay"></div>
         </div>
       </div>
-      <div class="bolletjes1">
-        <img src="./images/elementen/bolletjes_rechts.png" />
+    </div>
+    <div class="bolletjes1">
+      <img src="./images/elementen/bolletjes_rechts.png" alt="Decoratieve bolletjes" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerInnerWrapper">
+      <img class="logofooter" src="./images/elementen/footer-logo.png" alt="Zoniënzorg logo" />
+
+      <p class="tekst-footer">
+        Vzw Zonienzorg is een organisatie. Zij ontvangt voor haar werking
+        subsidies/financiële ondersteuning van het Vlaams Gewest, de Vlaamse
+        Gemeenschapscommissie en de gemeenten Watermaal-Bosvoorde,
+        Sint-Pieters-Woluwe en Oudergem.
+      </p>
+    </div>
+
+    <div class="footerInnerWrapper" id="middenFooter">
+      <h3>Volg ons op<br> sociale media!</h3>
+
+      <a href="https://www.facebook.com/ZonienzorgVzw/"><img class="facebook" src="./images/elementen/facebook.png"
+          alt="Facebook icoon" /></a>
+    </div>
+
+    <div class="footerInnerWrapper">
+      <h2>Contact</h2>
+
+      <div class="iconWrapper">
+        <img src="./images/telefoon.png" alt="Telefoon icoon" />
+
+        <p class="footext">Tel: 02/374.45.99</p>
       </div>
-    </section>
 
-    <footer>
-			<div class="footerInnerWrapper">
-			  <img class="logofooter" src="./images/elementen/footer-logo.png" />
+      <div class="iconWrapper">
+        <img src="./images/mail.png" alt="E-mail icoon" />
+        <p class="footext">zoniënzorg@skynet.be</p>
+      </div>
+    </div>
+  </footer>
+</body>
 
-			  <p class="tekst-footer">
-				Vzw Zonienzorg is een organisatie. Zij ontvangt voor haar werking
-				subsidies/financiële ondersteuning van het Vlaams Gewest, de Vlaamse
-				Gemeenschapscommissie en de gemeenten Watermaal-Bosvoorde,
-				Sint-Pieters-Woluwe en Oudergem.
-			  </p>
-			</div>
 
-			<div class="footerInnerWrapper" id="middenFooter">
-			  <h3>Volg ons op<br> sociale media!</h3>
-
-        <a href="https://www.facebook.com/ZonienzorgVzw/"><img class="facebook"  src="./images/elementen/facebook.png" /></a>
-			</div>
-
-			<div class="footerInnerWrapper">
-			  <h2>Contact</h2>
-
-			  <div class="iconWrapper">
-				<img src="./images/telefoon.png" alt="" />
-
-				<p class="footext">
-				  LDC Waha +32 479 81 64 12 &<br />
-				  LDC 't Koetshuis +32 471 79 19 77
-				</p>
-			  </div>
-
-			  <div class="iconWrapper">
-				<img src="./images/locatie.png" alt="" id="location" />
-
-				<p class="footext">
-				  LDC Waha de Wahalaan 15 1160 Oudergem & LDC 't Koetshuis Orbanlaan
-				  54 1150 Sint-Pieters- Woluwe
-				</p>
-			  </div>
-			</div>
-		  </footer>
-
-  </body>
 </html>
