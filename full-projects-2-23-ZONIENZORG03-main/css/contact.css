@@ -132,6 +132,7 @@ body {
       font-size: 16px;
       margin-bottom: 20px;
       border: none;
+      width: 95%;
     }
   
     form input[type="email"],
@@ -151,6 +152,10 @@ body {
       margin-bottom: 20px;
       border: none;
       
+    }
+
+    .bericht {
+      margin-top: 20px;
     }
   
     form select#selectie {
