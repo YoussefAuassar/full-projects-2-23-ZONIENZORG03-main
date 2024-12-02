@@ -67,10 +67,9 @@
     </div>
     <div class="hamburger-menu" id="mobile">
       <input id="menu__toggle" type="checkbox" />
-      <label class="menu__btn" for="menu__toggle">
+      <label class="menu__btn" for="menu__toggle" aria-label="Toggle menu">
         <span></span>
       </label>
-
       <ul class="menu__box">
         <li><a class="menu__item" href="index.html">Home</a></li>
         <li><a class="menu__item" href="missie.html">Missie & Visie</a></li>
@@ -110,14 +109,14 @@
               <input type="text" id="achternaam" class="vnaamicon" name="achternaam" placeholder="" />
             </div>
           </div>
+          
           <div class="form-column">
-            <label for="voornaam">E-mailadres</label> <br />
-            <br />
+            <label for="email">E-mailadres</label><br />
             <input type="email" id="email" class="vemailicon" name="email" placeholder="" />
           </div>
+        
           <div class="form-column">
             <label for="selectie">Selecteer de activiteit</label><br />
-            <br />
             <select id="selectie" name="selectie">
               <option value="optie0"></option>
               <option value="Pedicure">Pedicure</option>
@@ -131,9 +130,9 @@
               <option value="Workshop : Aardbeienconfituur">Workshop : Aardbeienconfituur</option>
             </select>
           </div>
+        
           <div class="form-column">
-            <label for="betaalmethode">Betaalmethode</label> <br />
-            <br />
+            <label for="betaalmethode">Betaalmethode</label><br />
             <select id="betaalmethode" name="betaalmethode">
               <option value="kies"></option>
               <option value="creditcard">Creditcard</option>
@@ -141,9 +140,10 @@
               <option value="ideal">iDEAL</option>
             </select>
           </div>
+        
           <div class="form-row">
             <div class="form-column">
-              <label class="vervoer">Wilt u extra vervoer? (+10€)</label>
+              <label class="vervoer" for="vervoer-ja">Wilt u extra vervoer? (+10€)</label>
               <div class="checkbox-container">
                 <label for="vervoer-ja">
                   <input type="radio" id="vervoer-ja" name="vervoer" value="true" />
@@ -156,9 +156,10 @@
               </div>
             </div>
           </div>
-
+        
           <input type="button" value="Schrijf je in !" id="schrijfInBtn" />
         </form>
+        
       </div>
 
       <div class="right-content">

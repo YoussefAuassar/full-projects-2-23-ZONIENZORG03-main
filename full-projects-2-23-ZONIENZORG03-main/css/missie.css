@@ -241,11 +241,10 @@ h2 {
 }
 
 /* rij 1 */
-.rij1 {
-    margin-bottom: 15%;
-
+.rij1 h2 {
+    position: absolute;
+    margin-top: -6%;
 }
-
 .rij1 p {
     position: absolute;
     font-family: 'Lato', sans-serif;
@@ -277,14 +276,11 @@ h2 {
 
 
 
-h3 {
+h2 {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.rij1 h3 {
-    position: absolute;
-    margin-top: -6%;
-}
+
 
 /* rij1*/
 
@@ -334,11 +330,11 @@ h3 {
 
 }
 
-h3 {
+h2 {
     font-family: 'Lato', sans-serif;
 }
 
-.rij2 h3 {
+.rij2 h2 {
     position: absolute;
     margin-top: -6%;
 }
@@ -374,11 +370,11 @@ h3 {
 
 
 
-h3 {
+h2 {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.rij3 h3 {
+.rij3 h2 {
     position: absolute;
     margin-top: -6%;
 }
@@ -723,12 +719,12 @@ h3 {
 
 
 
-    h3 {
+    h2 {
         font-family: 'Segoe UI', sans-serif;
         font-size: 5px;
     }
 
-    .rij1 h3 {
+    .rij1 h2 {
         position: absolute;
         margin-top: -6%;
     }
@@ -766,11 +762,11 @@ h3 {
 
 
 
-    h3 {
+    h2 {
         font-family: 'Segoe UI', sans-serif;
     }
 
-    .rij2 h3 {
+    .rij2 h {
         position: absolute;
         margin-top: -6%;
     }
@@ -806,11 +802,11 @@ h3 {
 
 
 
-    h3 {
+    h2 {
         font-family: 'Segoe UI', sans-serif;
     }
 
-    .rij3 h3 {
+    .rij3 h2 {
         position: absolute;
         margin-top: -6%;
     }
@@ -904,10 +900,10 @@ footer {
 
 .footerInnerWrapper h2 {
     font-weight: 400;
-    margin-bottom: 1%;
+    
     font-size: 30px;
     font-family: "Lato", sans-serif;
-    padding-bottom: 20px;
+    
 
 }
 
